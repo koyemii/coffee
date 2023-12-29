@@ -116,10 +116,12 @@
 <body>
     <div class="container">
         <h2>Coffee Orders</h2>
-        <form>
+        //<form>
+        <form action="saveData.php" method="post">
             Name: <input type="text" id="name" name="name"><br> <br>
             Order: <input type="text" id="order" name="order"><br> <br>
-            <input type="button" value="Send" onclick="submitOrder()">
+            // <input type="button" value="Send" onclick="submitOrder()">
+            <input type="submit" value="Send">
         </form>
 
         <div class="data-table">
